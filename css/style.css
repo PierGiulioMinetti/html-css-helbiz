@@ -100,6 +100,7 @@ a {
 
 .section-two-scooter {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .section-two-scooter h2 {
@@ -117,4 +118,13 @@ a {
 .section-two-scooter img {
     max-width: 300px;
     margin-top: 30px;
+}
+
+
+/* <!-- SECTION FOUR - JAMBOTRON --> */
+
+.section-four-jambotron-container {
+    height: 550px;
+    background-image: url('../img-helbiz/img/helbiz-banner.jpg');
+    background-position: 30% 55%;
 }
