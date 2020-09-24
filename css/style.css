@@ -66,7 +66,7 @@ a {
 }
 
 
-/* <!-- JUMBOTRON HEADER --> */
+/* <!--SECTION TWO - JUMBOTRON HEADER --> */
 
 .jumbo-container-header {
     margin-top: 30px;
@@ -83,4 +83,38 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.text-jumbotron-header h1 {
+    font-size: 50px;
+}
+
+.text-jumbotron-header h1,
+.text-jumbotron-header h4,
+.text-jumbotron-header img {
+    margin-top: 20px;
+}
+
+
+/* <!--SECTION THREE - SCOOTER SECTION --> */
+
+.section-two-scooter {
+    text-align: center;
+}
+
+.section-two-scooter h2 {
+    margin-top: 20px;
+}
+
+.section-two-scooter a {
+    display: block;
+    color: rgb(29, 104, 202);
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.section-two-scooter img {
+    max-width: 300px;
+    margin-top: 30px;
 }
