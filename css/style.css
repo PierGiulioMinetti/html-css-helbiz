@@ -1,0 +1,35 @@
+/* container specific */
+
+.w-1350 {
+    width: 1350px;
+    background-color: green;
+    max-width: 100%;
+    margin: 0 auto;
+    /* degub-space */
+    margin-top: 16px;
+}
+
+.box {
+    background-color: hotpink;
+}
+
+
+/* SECTION ONE NAVBAR */
+
+.navbar .container .col-lg-8 ul li {
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 16px;
+}
+
+.navbar .container .col-lg-8 ul li:nth-child(8),
+.navbar .container .col-lg-8 ul li:nth-child(9) {
+    border-right: 2px solid black;
+    padding-right: 11px;
+    margin-right: 10px;
+}
+
+.helbiz-header-logo {
+    text-align: right;
+    height: 25px;
+}
