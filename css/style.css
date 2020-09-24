@@ -163,4 +163,98 @@ a {
     background-image: url('../img-helbiz/img/scooter-bg.jpg');
     margin: 350px auto 100px;
     background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.section-five-container h1:nth-child(1) {
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+.col-xs-12.col-md-3 h1:nth-child(2) {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.section-five-container h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.section-five-container a {
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* background-image xs media queries */
+
+@media screen and (max-width:1063px) {
+    .scale-down {
+        font-size: 45px;
+        color: red;
+        opacity: 0.7;
+    }
+}
+
+
+/* <!-- SECTION SIX - DOUBLE IMG --> */
+
+.section-six-container {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+.section-six-container .container {
+    width: 100%;
+}
+
+.gray-background {
+    background-color: grey;
+    position: relative;
+}
+
+.h-450 {
+    height: 450px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.florence {
+    background-image: url(../img-helbiz/img/cities.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.helbiz-app {
+    max-width: 450px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* <!-- SECTION SEVEN - BANNER --> */
+
+.section-seven-container {
+    margin-top: 50px;
+    height: 450px;
+    background-image: url('../img-helbiz/img/social-banner.jpg');
+    position: relative;
+    text-align: center;
+}
+
+.section-seven-central-box {
+    height: 197px;
+    width: 450px;
+    max-width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
