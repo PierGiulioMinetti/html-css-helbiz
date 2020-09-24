@@ -247,6 +247,7 @@ a {
     background-image: url('../img-helbiz/img/social-banner.jpg');
     position: relative;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .section-seven-central-box {
@@ -272,4 +273,60 @@ a {
     display: inline-block;
     margin: 0 10px;
     font-size: 33px;
+}
+
+
+/* <!-- SECTION EIGHT - FOOTER --> */
+
+.section-eight-container {
+    height: 670px;
+    background-color: black;
+}
+
+.section-eight-container .container {
+    /* border: 1px solid rgb(248, 245, 245); */
+}
+
+.marg-top {
+    margin-top: 100px;
+    color: white;
+}
+
+.marg-top ul li {
+    list-style: none;
+    padding: 10px 0;
+    color: #7e7e7e;
+}
+
+.logo-footer {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+
+/* media logo display block 991px */
+
+@media screen and (min-width:991px) {
+    .col-xs-12.col-lg-3.d-none {
+        display: block;
+    }
+}
+
+.marg-top a {
+    color: white;
+}
+
+.section-eight-container-icon {
+    height: 110px;
+    margin-top: 100px;
+    color: white;
+    border-top: 1px solid #7e7e7e;
+    border-bottom: 1px solid #7e7e7e;
+    padding: 20px 0;
+    line-height: 50px;
+}
+
+.col-xs-12.col-lg-3.d-none span a {
+    color: white;
+    font-size: 30px;
 }
