@@ -126,5 +126,30 @@ a {
 .section-four-jambotron-container {
     height: 550px;
     background-image: url('../img-helbiz/img/helbiz-banner.jpg');
-    background-position: 30% 55%;
+    background-position: 30%;
+    background-size: cover;
+    margin-bottom: 200px;
+}
+
+.col-left,
+.col-right {
+    margin-top: 650px;
+}
+
+.col-left {
+    text-align: right;
+}
+
+.iphone {
+    max-width: 400px;
+    margin-top: 280px;
+}
+
+
+/* colonna iphone display block */
+
+@media screen and (min-width:991px) {
+    .col-lg-4.d-none {
+        display: block;
+    }
 }
