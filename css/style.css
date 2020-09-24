@@ -257,8 +257,12 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    position: relative;
 }
 
-.section-seven-central-box h1 {
-    line-height: 197px;
+.section-seven-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
