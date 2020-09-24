@@ -13,15 +13,10 @@ a {
 
 .w-1350 {
     width: 1350px;
-    background-color: green;
     max-width: 100%;
     margin: 0 auto;
     /* degub-space */
     margin-top: 16px;
-}
-
-.box {
-    background-color: hotpink;
 }
 
 .d-none {
@@ -161,7 +156,7 @@ a {
     height: 500px;
     max-width: 1400px;
     background-image: url('../img-helbiz/img/scooter-bg.jpg');
-    margin: 350px auto 100px;
+    margin: 350px auto 50px;
     background-size: cover;
     color: white;
     text-align: center;
@@ -223,6 +218,12 @@ a {
     text-align: center;
 }
 
+.h-450 h1,
+.h-450 h2 {
+    margin: 10px 0 10px 0;
+    color: white;
+}
+
 .florence {
     background-image: url(../img-helbiz/img/cities.jpg);
     background-size: cover;
@@ -265,4 +266,10 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.section-seven-text-container span {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 33px;
 }
