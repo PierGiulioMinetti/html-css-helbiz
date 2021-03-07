@@ -8,6 +8,10 @@ a {
     /* line-height: 30px; */
 }
 
+.hidden{
+    color: transparent;
+}
+
 
 /* container specific */
 
